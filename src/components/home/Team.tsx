@@ -1,4 +1,3 @@
-"use client"
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import team_data from "../../data/TeamData";
