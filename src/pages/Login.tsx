@@ -5,7 +5,7 @@ import LoginMain from '../components/login';
 const Login = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Login Xeco'} />
+         <SEO pageTitle={'Login Account'} />
          <LoginMain />
       </Wrapper>
    );

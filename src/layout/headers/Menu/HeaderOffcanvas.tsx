@@ -24,8 +24,8 @@ const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
                   </div>
                   <div className="contact-list mb-30">
                      <h4>Email Address</h4>
-                     <p>info@example.com</p>
-                     <p>example.mail@hum.com</p>
+                     <p>info@photoeditor.com</p>
+                     <p>example.mail@photoeditor.com</p>
                   </div>
                </div>
                <div className="social-icon-right mt-30">

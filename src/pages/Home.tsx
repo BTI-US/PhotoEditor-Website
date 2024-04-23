@@ -5,7 +5,7 @@ import HomeMain from '../components/home';
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Xeco'} />
+      <SEO pageTitle={'PhotoEditor'} />
       <HomeMain/>
     </Wrapper>
   );

@@ -5,7 +5,7 @@ import ContactMain from '../components/contact';
 const Contact = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Contact Xeco'} />
+      <SEO pageTitle={'Contact Us'} />
       <ContactMain/>
     </Wrapper>
   );

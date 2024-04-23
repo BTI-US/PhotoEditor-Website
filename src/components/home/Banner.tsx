@@ -7,8 +7,8 @@ const Banner = () => {
             <div className="row justify-content-center">
                <div className="col-lg-10">
                   <div className="banner-content text-center">
-                     <h2 className="title">Discover the Next Big Opportunity: <br /> <span>Our ICO is Live</span></h2>
-                     <p>A new smart block chain based marketplace for trading digital <br /> goods & assets according.</p>
+                     <h2 className="title">Discover the Power of Editing: <br /> <span>Our Photo Editor is Live</span></h2>
+                     <p>An innovative, smart photo editor for transforming your digital <br /> images & assets according to your needs.</p>
                      <div className="banner-countdown-wrap">
                         <div className="coming-time" data-countdown="2024/8/29">
                            <CountdownClock />

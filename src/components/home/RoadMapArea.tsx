@@ -11,32 +11,32 @@ const roadmap_data: DataTyfe[] = [
    {
       id: 1,
       roadmap_title: "End of Q4 2023",
-      title: "Research",
-      desc: (<>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</>),
+      title: "Concept Development",
+      desc: (<>The initial concept for the AI-based Photo Editor is developed and approved. This includes defining the core features and the AI capabilities of the editor.</>),
    },
    {
       id: 2,
       roadmap_title: "App Beta Test",
-      title: "Research",
-      desc: (<>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</>),
+      title: "Prototype Development",
+      desc: (<>Development of a working prototype of the AI-based Photo Editor. This involves implementing the core features and AI capabilities defined in the concept development stage.</>),
    },
    {
       id: 3,
       roadmap_title: "End of Q4 2023",
-      title: "Token Test",
-      desc: (<>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</>),
+      title: "Alpha Test",
+      desc: (<>First round of testing with a limited group of users. This allows us to gather feedback and make necessary improvements before the beta test.</>),
    },
    {
       id: 4,
       roadmap_title: "End of Q4 2023",
-      title: "Alpha Test",
-      desc: (<>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</>),
+      title: "Beta Test",
+      desc: (<>Second round of testing with a larger group of users. This allows us to gather more feedback and make further improvements before the official launch.</>),
    },
    {
       id: 5,
       roadmap_title: "End of Q4 2023",
-      title: "Concept",
-      desc: (<>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</>),
+      title: "Official Launch",
+      desc: (<>Official launch of the AI-based Photo Editor to the public. At this point, the editor is fully functional and ready for use.</>),
    },
 ]
 

@@ -9,12 +9,12 @@ const DownloadArea = () => {
                   <div className="col-lg-6">
                      <div className="download-content">
                         <div className="section-title mb-40">
-                           <h2 className="title">Control Application From Your Mobile</h2>
+                           <h2 className="title">Edit Photo Characters From Your Mobile</h2>
                         </div>
                         <div className="download-list">
                            <ul className="list-wrap">
-                              <li><span>1</span>White Paper</li>
-                              <li><span>2</span>Privacy & Policy</li>
+                              <li><span>1</span>Download and Install the APP</li>
+                              <li><span>2</span>Enjoy the Usage</li>
                            </ul>
                         </div>
                         <div className="download-btn-wrap">

@@ -5,7 +5,7 @@ import RegisterMain from '../components/register';
 const Login = () => {
    return (
       <Wrapper>
-         <SEO pageTitle={'Register Xeco'} />
+         <SEO pageTitle={'Register Account'} />
          <RegisterMain />
       </Wrapper>
    );

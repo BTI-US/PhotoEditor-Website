@@ -9,26 +9,26 @@ interface DataType {
 const feature_data: DataType[] = [
    {
       id: 1,
-      title: (<>Mobile Payment Make Easy</>),
-      desc: (<>Add new, trending and rare artwork to your collection.</>),
+      title: (<>Easy to Use</>),
+      desc: (<>Our software is designed with a user-friendly interface, making photo editing a breeze.</>),
       img: "/assets/img/images/features_img01.png",
    },
    {
       id: 2,
-      title: (<>Lifetime Free Transaction</>),
-      desc: (<>Add new, trending and rare artwork to your collection.</>),
+      title: (<>Compatible with Crypto Exchanger Templates</>),
+      desc: (<>Our software is compatible with a wide range of crypto exchanger templates, allowing for seamless integration.</>),
       img: "/assets/img/images/features_img02.png",
    },
    {
       id: 3,
-      title: (<>Protect the <br /> Identity</>),
-      desc: (<>Add new, trending and rare artwork to your collection.</>),
+      title: (<>Intelligent Character Transformation</>),
+      desc: (<>Efficiently and precisely change characters in your photos, freeing you from laborious work.</>),
       img: "/assets/img/images/features_img03.png",
    },
    {
       id: 4,
-      title: (<>Security & Control Over Money</>),
-      desc: (<>Add new, trending and rare artwork to your collection.</>),
+      title: (<>API for Quick Revisions</>),
+      desc: (<>We provide an API to deal with revisions more quickly, enhancing your productivity.</>),
       img: "/assets/img/images/features_img04.png",
    },
 ]
@@ -39,7 +39,7 @@ const FeatureOne = () => {
             <div className="row justify-content-center">
                <div className="col-lg-10">
                   <div className="section-title text-center mb-70">
-                     <h2 className="title">Revolutionary ICO Platform with Exclusive Rewards Program</h2>
+                     <h2 className="title">Experience Seamless Photo Editing with Our Intelligent Editor</h2>
                   </div>
                </div>
             </div>
