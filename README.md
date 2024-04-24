@@ -13,6 +13,9 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
+    - [WalletConnect API](#walletconnect-api)
+  - [Roadmap](#roadmap)
+  - [Setting Up for Mail Subscription Service](#setting-up-for-mail-subscription-service)
   - [Plugins](#plugins)
   - [Expanding the ESLint configuration](#expanding-the-eslint-configuration)
   - [License](#license)
@@ -23,8 +26,51 @@ This is the main website for the PhotoEditor project. It is built using React an
 
 ## Features
 
-- [ ] All WalletConnect support.
-- [ ]  
+### WalletConnect API
+
+Refer to the [Web3Modal SDK for React](https://docs.walletconnect.com/web3modal/react/about?platform=wagmi) for more information.
+
+## Roadmap
+
+- [ ] Add WalletConnect support.
+- [ ] Add activation code generation request and respond to the webpage.
+- [ ] Add Email subscription service (using EmailJS and Postcard).
+
+## Setting Up for Mail Subscription Service
+
+Here is the detailed step about how to configure the backend mail server for GitHub Pages (or other web services that only support frontend pages).
+
+1. Generate HTML Mail Template (Postcards)
+    
+    [Postcards - Designmodo](https://designmodo.com/postcards/app/)
+    
+    After editing the contents, export as a ZIP file with the images and HTML files together.
+    
+2. Domain Email Account Registration and SMTP Server Setting
+    
+    [GoDaddy Webmail](https://email.godaddy.com/)
+    
+3. Use EmailJS for Email Backend Service
+    
+    Basic Setting
+    
+    [Send email directly from your code | EmailJS](https://www.emailjs.com/)
+    
+    REST API Documentation
+    
+    [/send API | EmailJS](https://www.emailjs.com/docs/rest-api/send/)
+    
+    Note: 
+    
+    - SMTP.js only supports elasticemail as its backend SMTP mail server, no third-party SMTP server is supported.
+    - The limitation of the content body of EmailJS is no more than 50kb, be sure the size of the HTML file is less than the threshold.
+    - We can use the following website to shrink the size of the HTML file by removing the unnecessary characters (like white space, etc)
+        
+        [HTML Compressor - Reduce the size of HTML, CSS, JavaScript, PHP and Smarty code.](https://htmlcompressor.com/compressor/)
+        
+4. Backblaze B2 OBS Bucket for Image Storage
+    
+    We need to upload the images extracted from the downloaded ZIP file to the OBS bucket and replace all of the image paths from the relative path to the HTTPS path, which can be obtained through the detailed property of the file in the OBS bucket.
 
 ## Plugins
 

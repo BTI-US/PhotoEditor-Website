@@ -84,6 +84,11 @@ jobs:
     - name: Build Project
       if: matrix.build-mode == 'manual'
       run: npm install && npm run build
+      env:
+        VITE_WALLETCONNECT_PROJECT_ID: ${{ secrets.WALLETCONNECT_PROJECT_ID }}
+        ACTIVE_NETWORK: ${{ secrets.ACTIVE_NETWORK }}
+        EMAIL_TOKEN: ${{ secrets.EMAIL_TOKEN }}
+        AUTH_WEB_ADDRESS: ${{ secrets.AUTH_WEB_ADDRESS }}
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
