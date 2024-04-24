@@ -23,7 +23,8 @@ This is the main website for the PhotoEditor project. It is built using React an
 
 ## Features
 
-Need to add features here.
+- [ ] All WalletConnect support.
+- [ ]  
 
 ## Plugins
 

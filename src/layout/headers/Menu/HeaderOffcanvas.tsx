@@ -25,14 +25,14 @@ const HeaderOffcanvas = ({ offCanvas, setOffCanvas }: any) => {
                   <div className="contact-list mb-30">
                      <h4>Email Address</h4>
                      <p>info@photoeditor.com</p>
-                     <p>example.mail@photoeditor.com</p>
+                     <p>support@photoeditor.com</p>
                   </div>
                </div>
                <div className="social-icon-right mt-30">
-                  <Link to="#"><i className="fab fa-facebook-f"></i></Link>
+                  <Link to="#"><i className="fas fa-globe"></i></Link>
                   <Link to="#"><i className="fab fa-twitter"></i></Link>
                   <Link to="#"><i className="fab fa-google-plus-g"></i></Link>
-                  <Link to="#"><i className="fab fa-instagram"></i></Link>
+                  <Link to="#"><i className="fab fa-telegram"></i></Link>
                </div>
             </div>
             <div onClick={() => setOffCanvas(false)} className={`offcanvas-overly ${offCanvas ? "active" : ""}`}></div>

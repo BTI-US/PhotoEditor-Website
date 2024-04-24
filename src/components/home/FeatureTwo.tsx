@@ -7,17 +7,17 @@ interface DataType {
 const feature_data: DataType[] = [
    {
       id: 1,
-      title: "Lifetime free and transaction",
+      title: "Lifetime Free Updates",
       img: "/assets/img/images/features_two_img01.png"
    },
    {
       id: 2,
-      title: "Security & Control over money",
+      title: "Security & Control over Your Edits",
       img: "/assets/img/images/features_two_img02.png"
    },
    {
       id: 3,
-      title: "Mobile Payment Make Easy",
+      title: "Easy Mobile Photo Editing",
       img: "/assets/img/images/features_two_img03.png"
    }
 ]

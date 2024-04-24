@@ -70,7 +70,7 @@ const Team = () => {
             <div className="row g-0">
                <div className="col-12">
                   <div className="section-title text-center mb-50">
-                     <h2 className="title">Meet Our Extrodinary Developers</h2>
+                     <h2 className="title">Meet Our Extraordinary Developers</h2>
                   </div>
                </div>
             </div>
@@ -92,7 +92,7 @@ const Team = () => {
                   ))}
                </Slider>
                <div className="read-more-btn text-center mt-70">
-                  <Link to="/contact" className="btn">All Team Member</Link>
+                  <Link to="/contact" className="btn">Contact Us</Link>
                </div>
             </div>
          </div>

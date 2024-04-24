@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import CloseEye from "../../svg/CloseEye";
 import OpenEye from "../../svg/OpenEye";
 
@@ -38,24 +38,24 @@ const RegisterForm = () => {
 
    return (
       <form onSubmit={handleSubmit(onSubmit)}>
-         <div className="eg-login__input-wrapper">
+         <div className="eg-login__input-wrapper" style={{ marginBottom: '50px' }}>
             <div className="eg-login__input-box">
                <div className="eg-login__input">
-                  <label htmlFor="name">Your Name</label>
-                  <input id="name" {...register("name")} type="text" placeholder="Nathaniel Lewis" />
+                  <label htmlFor="name">Your Address</label>
+                  <input id="name" {...register("name")} type="text" placeholder="Address will be shown here" />
                   <p className="form_error">{errors.name?.message}</p>
                </div>
             </div>
             <div className="eg-login__input-box">
                <div className="eg-login__input">
-                  <label htmlFor="email">Your Email</label>
-                  <input id="email" {...register("email")} type="email" placeholder="xeco@mail.com" />
+                  <label htmlFor="email">Your Activation Code</label>
+                  <input id="email" {...register("email")} type="email" placeholder="Activation code will be shown here" />
                   <p className="form_error">{errors.email?.message}</p>
                </div>
             </div>
             <div className="eg-login__input-box">
                <div className="eg-login__input">
-                  <label htmlFor="eg-password__input">Password</label>
+                  <label htmlFor="eg-password__input">Your Promotion Code</label>
                   <div className="eg-password-show">
                      <input id="eg-password__input" {...register("password")} type={isPasswordVisible ? "text" : "password"} placeholder="Min. 6 characters" />
                      <div className="eg-login__input-eye" id="eg-password__show-toggle" onClick={togglePasswordVisibility} >
@@ -70,7 +70,7 @@ const RegisterForm = () => {
                </div>
             </div>
          </div>
-         <div className="eg-login__suggetions d-flex align-items-center justify-content-between mb-20">
+         {/* <div className="eg-login__suggetions d-flex align-items-center justify-content-between mb-20">
             <div className="eg-login__remeber">
                <input id="remeber" type="checkbox" />
                <label htmlFor="remeber">Remember me</label>
@@ -78,9 +78,9 @@ const RegisterForm = () => {
             <div className="eg-login__forgot">
                <Link to="/forgot">Forgot Password?</Link>
             </div>
-         </div>
+         </div> */}
          <div className="eg-login__bottom">
-           <button type="submit" className="btn w-100">Register</button>
+           <button type="submit" className="btn w-100">Check Your Eligibility</button>
          </div>
       </form>
    )

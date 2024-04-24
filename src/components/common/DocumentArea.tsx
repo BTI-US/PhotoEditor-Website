@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import DocumentForm from "../forms/DocumentForm"
 
-const doc_data: string[] = ["Whitepaper", "Token Sale Terms", "Presentation", "Lightpaper"]
+const doc_data: string[] = ["Whitepaper", "User Manual", "Presentation", "API Documentation"]
 
 const DocumentArea = () => {
    return (

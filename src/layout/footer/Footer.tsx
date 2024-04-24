@@ -14,22 +14,16 @@ interface DataType {
 const footer_data: DataType[] = [
    {
       id: 1,
-      class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-6",
-      title: "Usefull Links",
-      footer_link: [{ link: "/contact", link_title: "Contact us" }, { link: "/contact", link_title: "How it Works" }, { link: "/contact", link_title: "Create" }, { link: "/contact", link_title: "Explore" }, { link: "/contact", link_title: "Terms & Services" },]
+      class_name: "col-xl-4 col-lg-4 col-md-6 col-sm-8",
+      title: "Related Links",
+      footer_link: [{ link: "/", link_title: "Home" }, { link: "/#feature", link_title: "Feature" }, { link: "/#chart", link_title: "Chart" }, { link: "/#roadMap", link_title: "Roadmap" }, { link: "/terms-and-services", link_title: "Terms & Services" },]
    },
    {
       id: 2,
-      class_name: "col-xl-3 col-lg-2 col-md-4 col-sm-6",
+      class_name: "col-xl-4 col-lg-4 col-md-6 col-sm-8",
       title: "SOLUTIONS",
       footer_link: [{ link: "/contact", link_title: "Token Suite" }, { link: "/contact", link_title: "Ecosystem" }, { link: "/contact", link_title: "Investment" }, { link: "/contact", link_title: "Portal" }, { link: "/contact", link_title: "Tokenization" },]
-   },
-   {
-      id: 3,
-      class_name: "col-xl-3 col-lg-3 col-md-4 col-sm-4",
-      title: "Usefull Links",
-      footer_link: [{ link: "/contact", link_title: "Help Center" }, { link: "/contact", link_title: "Partners" }, { link: "/contact", link_title: "Suggestions" }, { link: "/blog", link_title: "Blog" }, { link: "/contact", link_title: "Newsletters" },]
-   },
+   }
 ]
 
 const Footer = () => {

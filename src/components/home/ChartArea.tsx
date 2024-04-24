@@ -2,9 +2,9 @@ import { useState } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import 'chart.js/auto';
 
-const tab_title: string[] = ["Funding Allocation", "Token Distribution",];
+const tab_title: string[] = ["Funding Allocation", "Token Distribution"];
 const chart_List_1: string[] = ["Contingency: 70%", "Business Development: 20%", "Investor: 30%", "Poland: 15%", "Legal & Regulation: 20%", "Czech Republic: 50%"]
-const chart_List_2: string[] = ["Czech Republic: 50%", "Poland: 15%", "Legal & Regulation: 20%", "Contingency: 70%", "Business Development: 20%", "Investor: 30%"]
+const chart_List_2: string[] = ["Launchpool: 32%", "Foundation: 25%", "Private Offering: 16%", "Financiers: 12%", "Team: 8%", "Initial Airdrop: 7%"]
 
 const ChartArea = () => {
 
@@ -19,14 +19,24 @@ const ChartArea = () => {
 
    const chartData = [
       [70, 20, 30, 15, 20, 50], // Funding Allocation percentages
-      [50, 15, 20, 70, 20, 30]  // Token Distribution percentages
+      [32, 25, 16, 12, 8, 7]  // Token Distribution percentages
+   ];
+
+   const labelData = [
+      ["Contingency", "Business Development", "Investor", "Poland", "Legal & Regulation", "Czech Republic"], // Funding Allocation labels
+      ["Launchpool", "Foundation", "Private Offering", "Financiers", "Team", "Initial Airdrop"]  // Token Distribution labels
+   ];
+
+   const datasetLabel = [
+      "Number of Tokens",
+      "Percentage"
    ];
 
    const data = {
-      // labels: ["Contingency", "Business Development", "Investor", "Poland", "Legal & Regulation", "Czech Republic"],
+      labels: labelData[activeTab],
       datasets: [
          {
-            label: 'Founding Allocation',
+            label: datasetLabel[activeTab],
             data: chartData[activeTab],
             backgroundColor: ["#44A08D", "#136F84", "#0B446D", "#033356", "#012641", "#191F28"]
          }
@@ -76,12 +86,13 @@ const ChartArea = () => {
                   </div>
                   <div className="col-lg-6">
                      <div className="right-side-content">
-                        <img src="/assets/img/images/chart_img.png" alt="" />
-                        <p>Ethereum is a decentralized, open-source <br /> blockchain with smart contract</p>
+                        <img src="https://i.imgur.com/xXTGcVC.gif" alt="" />
+                        <p>Multi-function available for our app <br /> Steps to use the app:</p>
                         <ul className="list-wrap">
-                           <li><span>1</span>Symbol: CIC</li>
-                           <li><span>2</span>Initial Value : 1 ETH = 3177.38 CIC</li>
-                           <li><span>3</span>Type : ERC20</li>
+                           <li><span>1</span>Choose image template</li>
+                           <li><span>2</span>Click the contents to be modified</li>
+                           <li><span>3</span>Input new contents in the input area</li>
+                           <li><span>4</span>Save or share your image</li>
                         </ul>
                      </div>
                   </div>
