@@ -32,7 +32,7 @@ Refer to the [Web3Modal SDK for React](https://docs.walletconnect.com/web3modal/
 
 ## Roadmap
 
-- [ ] Add WalletConnect support.
+- [x] Add WalletConnect support and address display.
 - [ ] Add activation code generation request and respond to the webpage.
 - [ ] Add Email subscription service (using EmailJS and Postcard).
 

@@ -62,8 +62,6 @@ const LoginForm = () => {
     }
     let previousAddress: string | null | undefined = null;
 
-    // const accounts = getAccount(config);
-    // const walletAddress = accounts.address;
     watchAccount(config, {
       // Only watch the address changes
 
@@ -85,6 +83,7 @@ const LoginForm = () => {
     })
   };
 
+   // TODO: Switch to the account page 
    return (
       <WagmiProvider config={config}>
         <QueryClientProvider client={queryClient}>

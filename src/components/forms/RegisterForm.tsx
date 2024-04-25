@@ -41,21 +41,21 @@ const RegisterForm = () => {
          <div className="eg-login__input-wrapper" style={{ marginBottom: '50px' }}>
             <div className="eg-login__input-box">
                <div className="eg-login__input">
-                  <label htmlFor="name">Your Address</label>
+                  <label htmlFor="name">Your address will be shown after login</label>
                   <input id="name" {...register("name")} type="text" placeholder="Address will be shown here" />
                   <p className="form_error">{errors.name?.message}</p>
                </div>
             </div>
             <div className="eg-login__input-box">
                <div className="eg-login__input">
-                  <label htmlFor="email">Your Activation Code</label>
+                  <label htmlFor="email">Your activation code will be shown after login</label>
                   <input id="email" {...register("email")} type="email" placeholder="Activation code will be shown here" />
                   <p className="form_error">{errors.email?.message}</p>
                </div>
             </div>
             <div className="eg-login__input-box">
                <div className="eg-login__input">
-                  <label htmlFor="eg-password__input">Your Promotion Code</label>
+                  <label htmlFor="eg-password__input">Your promotion code will be shown after login</label>
                   <div className="eg-password-show">
                      <input id="eg-password__input" {...register("password")} type={isPasswordVisible ? "text" : "password"} placeholder="Min. 6 characters" />
                      <div className="eg-login__input-eye" id="eg-password__show-toggle" onClick={togglePasswordVisibility} >
