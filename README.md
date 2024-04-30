@@ -4,7 +4,7 @@
 [![CodeQL](https://github.com/BTI-US/PhotoEditor-Website/actions/workflows/codeql.yml/badge.svg)](https://github.com/BTI-US/PhotoEditor-Website/actions/workflows/codeql.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-- Last Modified: 2024-04-23
+- Last Modified: 2024-04-30
 - Author: Phill Weston
 
 ## Table of Contents
@@ -55,6 +55,7 @@ Refer to the [Web3Modal SDK for React](https://docs.walletconnect.com/web3modal/
 - [x] Add WalletConnect support and address display.
 - [ ] Add activation code generation request and respond to the webpage.
 - [ ] Add Email subscription service (using EmailJS and Postcard).
+- [ ] Finish the documentation page.
 
 ## Setting Up for Mail Subscription Service
 
