@@ -25,7 +25,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-slick": "^0.30.2",
     "react-timer-hook": "^3.0.7",
-    "react-toastify": "^10.0.4",
+    "react-toastify": "^10.0.5",
     "react-use": "^17.5.0",
     "rxjs": "^7.8.1",
     "slick-carousel": "^1.8.1",
@@ -36,20 +36,20 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.64",
+    "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.21",
     "@types/react-gtm-module": "^2.0.3",
     "@types/react-router-hash-link": "^2.4.9",
     "@types/react-slick": "^0.23.13",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
+    "@typescript-eslint/parser": "^7.7.1",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "react-gtm-module": "^2.0.11",
-    "typescript": "^5.2.2",
-    "vite": "^5.1.6"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
   }
 }
