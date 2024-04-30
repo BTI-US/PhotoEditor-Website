@@ -5,6 +5,10 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 
+const emailToken = import.meta.env.VITE_EMAIL_TOKEN as string;
+const emailServiceID = import.meta.env.VITE_EMAIL_SERVICE_ID as string || 'editor_email';
+const emailTemplate = import.meta.env.VITE_CONTACT_EMAIL_TEMPLATE as string || 'contact_email_template'; // TODO:
+
 interface FormData {
    user_name: string;
    user_email: string;
@@ -38,7 +42,8 @@ const ContactForm = () => {
 
    const sendEmail = () => {
       if (form.current) {
-         emailjs.sendForm('eaglesthemes', 'template_lojvsvb', form.current, 'mtLgOuG25NnIwGeKm')
+         // Update: emailJS removed the integration tab, and now replaced userid with public key which can be found in 'account'
+         emailjs.sendForm(emailServiceID, emailTemplate, form.current, emailToken)
             .then((result) => {
                const notify = () => toast('Comment sent successfully', { position: 'top-center' });
                notify();

@@ -13,6 +13,8 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
+  - [How to configure the website](#how-to-configure-the-website)
+    - [Required Environment Variables](#required-environment-variables)
     - [WalletConnect API](#walletconnect-api)
   - [Roadmap](#roadmap)
   - [Setting Up for Mail Subscription Service](#setting-up-for-mail-subscription-service)
@@ -25,6 +27,24 @@
 This is the main website for the PhotoEditor project. It is built using React and TypeScript.
 
 ## Features
+
+## How to configure the website
+
+### Required Environment Variables
+
+The following environment variables are required to run the website:
+
+**Note:** The environment variables used for vite should be prefixed with `VITE_`.
+
+|Env Name|Ignorable|Description|
+|-|-|-|
+|`VITE_WALLETCONNECT_PROJECT_ID`|Essential|The WalletConnect project ID.|
+|`VITE_EMAIL_TOKEN`|Essential|The EmailJS token.|
+|`VITE_EMAIL_SERVICE_ID`|Essential|The EmailJS service ID.|
+|`VITE_EMAIL_TEMPLATE`|Essential|The EmailJS template ID for subscription.|
+|`VITE_CONTACT_EMAIL_TEMPLATE`|Essential|The EmailJS template ID for contact.|
+|`VITE_ACTIVE_NETWORK`|Essential|The active network for the WalletConnect API.|
+|`VITE_AUTH_WEB_ADDRESS`|Essential|The authentication web address for the website.|
 
 ### WalletConnect API
 

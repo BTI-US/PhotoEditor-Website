@@ -25,7 +25,7 @@ const BlogSidebar = () => {
                   <ul className="list-wrap">
                      <li><Link to="#"><i className="fas fa-globe"></i></Link></li>
                      <li><Link to="#"><i className="fab fa-twitter"></i></Link></li>
-                     <li><Link to="#"><i className="fab fa-linkedin-in"></i></Link></li>
+                     <li><Link to="#"><i className="fab fa-youtube"></i></Link></li>
                      <li><Link to="#"><i className="fab fa-telegram"></i></Link></li>
                   </ul>
                   <Link to="/contact" className="btn">Get In Touch</Link>

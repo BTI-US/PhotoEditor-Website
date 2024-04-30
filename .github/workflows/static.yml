@@ -54,6 +54,7 @@ jobs:
           VITE_ACTIVE_NETWORK: ${{ secrets.ACTIVE_NETWORK }}
           VITE_EMAIL_SERVICE_ID: ${{ secrets.EMAIL_SERVICE_ID }}
           VITE_EMAIL_TEMPLATE: ${{ secrets.EMAIL_TEMPLATE }}
+          VITE_CONTACT_EMAIL_TEMPLATE: ${{ secrets.CONTACT_EMAIL_TEMPLATE }}
           VITE_EMAIL_TOKEN: ${{ secrets.EMAIL_TOKEN }}
           VITE_AUTH_WEB_ADDRESS: ${{ secrets.AUTH_WEB_ADDRESS }}
 

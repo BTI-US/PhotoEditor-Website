@@ -26,8 +26,8 @@ const content_data: ContentData = {
    desc_6: (<>Join us as we delve into the journeys of these trailblazing projects, from the initial idea to the successful ICO and beyond. Gain insights into the strategies they employed, the challenges they overcame, and the lessons they learned along the way. ICO success stories are not just about financial gains but also about the transformative impact these projects have had on various sectors. If you&apos;re curious about the potential of ICOs.</>),
    desc_7: (<>We explore a diverse range of projects that have thrived after launching their ICOs, disrupting traditional industries and paving the way for revolutionary solutions. From decentralized applications (DApps) that have reshaped digital ecosystems to blockchain platforms revolutionizing supply chain management, these success stories demonstrate the power of ICOs to propel ideas into reality.</>),
    desc_8: (<>Through in-depth case studies and interviews with project leaders, we offer insights into the challenges they faced, the strategies they employed, and the lessons they learned along the way. Whether you&apos;re an investor seeking inspiration or an entrepreneur entrepreneur considering an ICO, these stories.</>),
-   desc_9: (<>The Founder and Creative Director of XECO, a digital creative studio in USA, has over 15 years of experience as an award-winning Creative Director/Art for clients.</>),
-   social_icon: ["fas fa-globe", "fab fa-linkedin-in", "fab fa-twitter", "fab fa-telegram",]
+   desc_9: (<>The Founder and Creative Director of PhotoEditor, a digital creative studio in USA, has over 15 years of experience as an award-winning Creative Director/Art for clients.</>),
+   social_icon: ["fab fa-facebook-f", "fab fa-linkedin-in", "fab fa-twitter", "fab fa-instagram", "fab fa-telegram", "fab fa-google"]
 }
 const { title_1, desc_1, desc_2, desc_3, desc_4, desc_5, social_icon, desc_6, desc_7, desc_8, desc_9 } = content_data;
 
